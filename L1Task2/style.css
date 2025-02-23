@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+body{
+    background-color: black;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn{
+    padding: 10px 10px;
+    background: blueviolet;
+     border: 2px solid white;
+     border-radius: 8px;
+     color: aliceblue;
+    
+}
+.container{
+  
+    background:linear-gradient(to right, red ,rgb(199, 83, 20));
+    color: aliceblue;
+    padding: 20px 50px;
+    margin: 100px;
+    font-size: 10px;
+    border-radius: 0.4em;
+   
+    
+}
+
+
+
+/* 
+ */
+.containerone{ 
+padding: 20px;
+
+}
+
+ .box{
+   
+    width: 400px;
+    padding: 40px 50px;
+    margin: 50px auto;
+    border-top: 5px solid rgb(226, 73, 43);
+    border-bottom: 5px solid rgb(226, 73, 43);
+     box-shadow:0 0 5px;
+     text-align: center;
+     background-color: white;
+     
+  
+     
+     
+}
+.box h2{
+    text-decoration: underline;
+    text-transform: capitalize;
+
+}
+
+.form{
+    /* display: flex; */
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    border-radius: 2rem;
+    padding: 10px;
+    
+}
+.form::before{
+    height: 300px;
+    width: 200px;
+    position: absolute;
+    
+}
+.input{
+    padding: 3px;
+    margin: 4px;
+    border-radius: 1px  black;
+    background-color: transparent;
+
+}
+.btn1{
+    
+    padding: 10px 10px;
+    background: blueviolet;
+     border: 2px solid white;
+     border-radius: 8px;
+     color: aliceblue;
+   align-content:space-between;   
+    
+}
+
+.btn1:hover{
+    background-color: #000;
+    color:white;
+    border: 2px solid white;
+}
+    
